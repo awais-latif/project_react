@@ -1,0 +1,146 @@
+.cd-Layout {
+  padding: 20px 24px 8px;
+}
+.cd-ed-layout {
+  padding: 20px 24px 30px;
+}
+.cd-ad-layout {
+  padding: 20px 40px 60px;
+}
+.cd-headlineLayout {
+  padding-top: 10px;
+}
+.cd-iconLayout {
+  width: 24px;
+  height: 24px;
+}
+.cd-title {
+  margin-left: 8px;
+  font-size: 1.2rem;
+}
+.cd-subtitleLayout {
+  color: #616161;
+  margin-top: 0.9em;
+}
+.cd-Link {
+  color: #4285f4;
+  text-decoration: none;
+}
+.cd-primarycontent {
+  border-top: 1px solid;
+  border-color: #e1e3e6;
+}
+
+.cd-button {
+  display: inline-block;
+}
+.cd-button:hover {
+  background: #216be2;
+}
+.cd-title-color {
+  color: #202124;
+}
+.cd-subtitle-color {
+  color: #202124;
+}
+
+.title {
+  margin-block-end: -1.35em;
+}
+.textBold {
+  color: black;
+  font-weight: 600;
+  padding-top: 0px;
+}
+.sub-heading {
+  font-size: 14px;
+}
+.clear {
+  float: none;
+}
+.right-margin-30 {
+  margin-right: 35px;
+}
+
+.cd-add-layout {
+  padding: 50px 50px 60px;
+}
+
+.cd-subfont {
+  font-size: 12px;
+  color: #757575;
+}
+.cd-marginTop {
+  margin-top: 0.9em;
+}
+.margin-left {
+  margin-left: 30px;
+}
+
+.margin-left-10 {
+  margin-left: 20px;
+}
+
+.cd-balance-layout {
+  padding: 50px 30px 30px;
+}
+.add-method {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+.payment-title {
+  font-size: 18px;
+}
+.cd-subtitleLayout2 {
+  color: #616161;
+  margin-top: 0em;
+}
+.padding-10 {
+  padding: 20px;
+}
+.bigIcon {
+  font-size: 90px;
+}
+.remove-bottom-space {
+  margin-block-end: 0em;
+}
+.padding-10-btn {
+  padding: 10px;
+}
+.padding-left-60 {
+  padding-left: 60px;
+}
+.font-1 {
+  font-size: 1.2em;
+}
+.material-icons.md-48 {
+  font-size: 90px;
+}
+.cd-payment-icon {
+  padding-top: 20px;
+  color: #5f6368;
+}
+.icon-color-grey {
+  color: #5f6368;
+}
+.logo_size {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.back-title {
+  font-size: 18px;
+}
+.padding-tb {
+  padding-bottom: 20px;
+}
+.cd-buttonText1 {
+  color: #4285f4;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+}
+.cardShape1 {
+  border-radius: 8px;
+}

@@ -1,0 +1,135 @@
+.tube {
+  margin: 8px 0;
+  font-size: 11px;
+  color: #484848;
+  padding: 3px 6px;
+  border-radius: 2px;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgb(216, 216, 216);
+  width: 72px;
+}
+
+.tube.tube--pending {
+  border-left: 4px solid #ffb400;
+}
+
+.tube.tube--verified {
+  border-left: 4px solid #34a853;
+}
+
+.tube.tube--error {
+  border-left: 4px solid red;
+}
+
+.text-ellipses {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  color: #3c4043;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  /*color: rgba(0, 0, 0, 0.6);*/
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.chip.chip--white {
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+}
+
+.chip.chip--white:hover {
+  background-color: #fafafb;
+}
+
+.chip.chip--large {
+  height: 42px;
+  line-height: 42px;
+  border-radius: 24px;
+}
+
+.chip:focus {
+  outline: none;
+  /*background-color: #26a69a;*/
+  background-color: #1a73e8;
+  color: #fff;
+}
+
+.chip > img {
+  float: left;
+  margin: 0 8px 0 -10px;
+  height: 31px;
+  width: 31px;
+  border-radius: 50%;
+}
+
+.chip.chip--large > img {
+  height: 41px;
+  width: 41px;
+}
+
+.chip .close {
+  cursor: pointer;
+  float: right;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+
+.chip.chip--large .close {
+  line-height: 42px;
+}
+
+a {
+  /* color: #1a73e8; */
+  /* font-weight: 500; */
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:focus,
+a:hover {
+  color: #4285f4;
+  text-decoration: underline;
+}
+
+a:visited {
+  /* color: #3367d6; */
+}
+
+a img {
+  border: 0;
+}
+
+a.link--dark {
+  color: #3c4043;
+}
+
+.text-body {
+  color: #616161;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+}
+.padding-30 {
+  padding: 0px 30px 30px;
+}
+.padding-40 {
+  padding: 0px 40px 30px;
+}
